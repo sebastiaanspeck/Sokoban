@@ -41,10 +41,7 @@ def init(path):
 
 def solution(board):
     # check if the boxes ($) are on the locations of the goals (%)
-    if location(board, "$") == location(board_start, "%"):
-        return True
-    else:
-        return False
+    return location(board, "$") == location(board_start, "%")
 
 
 def result(current_board):
