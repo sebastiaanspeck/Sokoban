@@ -144,7 +144,7 @@ def breadthfirst(board):
 
 
 def game():
-    init('boards/5x5.txt')
+    init('boards/3x3.txt')
     while boards:
         board = boards.pop(0)
         # check if the start board is already the solution
